@@ -1,0 +1,6 @@
+services:
+  - type: static
+    name: my-portfolio
+    env: static
+    staticSite: 
+      publishDir: .  # Adjust if your HTML file is in a subdirectory
